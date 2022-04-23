@@ -1,0 +1,23 @@
+/*nav {
+    background-color: #bababa;
+}*/
+nav{
+    background-color: white;
+}
+
+body {
+  background-color: rgba(22, 123, 22, 0.48);
+}
+section{
+    background-color: rgba(46, 126, 4, 0.47);
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+ul {
+    text-align: center;
+}
+footer{
+    background-color: rgba(255, 237, 141, 0.8);
+}
