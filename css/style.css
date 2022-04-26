@@ -1,69 +1,90 @@
-/*nav {
-    background-color: #bababa;
-}*/
-nav{
+/* BASE COMPONENTS */
+nav {
     background-color: white;
 }
 
 body {
-  background-color: rgba(22, 123, 22, 0.48);
+    background-color: rgba(22, 123, 22, 0.48);
 }
-section{
+
+section {
     background-color: rgba(46, 126, 4, 0.47);
 }
+
 h1 {
-  color: black;
-  text-align: center;
+    color: black;
+    text-align: center;
 }
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
 ul {
     text-align: center;
 }
-footer{
+
+p {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+footer {
     background-color: rgba(255, 237, 141, 0.8);
 }
 
+.footer-header {
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+/* MAP */
 .wrapper {
     margin: 0 auto;
     width: 1000px;
 }
 
-.img-map{
+.img-map {
     width: 508px;
     position: absolute;
     top: 112px;
     left: 700px;
 }
 
-.img-slothMP{
-    width:25px;
+.img-slothMP {
+    width: 25px;
     position: absolute;
     top: 185px;
     left: 930px;
 }
 
-.img-matchMP{
-    width:25px;
+.img-matchMP {
+    width: 25px;
     position: absolute;
     top: 75px;
     left: 1020px;
 }
 
-.img-deerMP{
-    width:25px;
+.img-deerMP {
+    width: 25px;
     position: absolute;
     top: 200px;
     left: 980px;
 }
 
-.img-cornMP{
-    width:25px;
+.img-cornMP {
+    width: 25px;
     position: absolute;
     top: 175px;
     left: 900px;
 }
 
-.img-sharkMP{
-    width:25px;
+.img-sharkMP {
+    width: 25px;
     position: absolute;
     top: 15px;
     left: 920px;
@@ -72,19 +93,21 @@ footer{
 
 .tooltip-wrap {
     position: relative;
-  }
-  .tooltip-wrap .tooltip-content {
+}
+
+.tooltip-wrap .tooltip-content {
     display: none;
     position: absolute;
     top: 150px;
     left: 1300px;
     text-align: center;
     background-color: #fff;
-    padding: .5em; 
-    
-  }
-  .tooltip-wrap:hover .tooltip-content {
+    padding: .5em;
+
+}
+
+.tooltip-wrap:hover .tooltip-content {
     display: block;
     height: 75px;
     width: 150px;
-  } 
+}
