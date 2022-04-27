@@ -52,71 +52,64 @@ footer {
 
 
 /* MAP */
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
-}
-
-.img-map {
-    width: 508px;
-    position: absolute;
+.img-map{
+    width: 582px;
+    position: fixed;
     top: 112px;
     left: 700px;
 }
 
-.img-slothMP {
-    width: 25px;
-    position: absolute;
-    top: 185px;
+.img-slothMP{
+    width:25px;
+    position: fixed;
+    top: 305px;
     left: 930px;
 }
 
-.img-matchMP {
-    width: 25px;
-    position: absolute;
-    top: 75px;
-    left: 1020px;
+.img-matchMP{
+    width:25px;
+    position: fixed;
+    top: 195px;
+    left: 1040px;
 }
 
-.img-deerMP {
-    width: 25px;
-    position: absolute;
-    top: 200px;
-    left: 980px;
+.img-deerMP{
+    width:25px;
+    position: fixed;
+    top: 350px;
+    left: 1000px;
 }
 
-.img-cornMP {
-    width: 25px;
-    position: absolute;
-    top: 175px;
-    left: 900px;
+.img-cornMP{
+    width:25px;
+    position: fixed;
+    top: 330px;
+    left: 950px;
 }
 
-.img-sharkMP {
-    width: 25px;
-    position: absolute;
-    top: 15px;
-    left: 920px;
+.img-sharkMP{
+    width:25px;
+    position: fixed;
+    top: 138px;
+    left: 960px;
 }
 
 
 .tooltip-wrap {
     position: relative;
-}
-
-.tooltip-wrap .tooltip-content {
+  }
+  .tooltip-wrap .tooltip-content {
     display: none;
-    position: absolute;
-    top: 150px;
-    left: 1300px;
+    position: fixed;
+    top: 300px;
+    left: 1320px;
     text-align: center;
     background-color: #fff;
-    padding: .5em;
-
-}
-
-.tooltip-wrap:hover .tooltip-content {
+    padding: .5em; 
+    
+  }
+  .tooltip-wrap:hover .tooltip-content {
     display: block;
     height: 75px;
     width: 150px;
-}
+  } 
