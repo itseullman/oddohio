@@ -20,6 +20,11 @@ h2 {
     color: black;
     text-align: center;
 }
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
 
 ul {
     text-align: center;
@@ -29,7 +34,11 @@ p {
     font-size: large;
     font-weight: bold;
 }
-
+p1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
 
 /* FOOTER */
 footer {
